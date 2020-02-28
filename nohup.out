@@ -1,0 +1,41 @@
+[W 09:02:12.454 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 09:02:12.654 NotebookApp] Error loading server extension jupyter_nbextensions_configurator
+    Traceback (most recent call last):
+      File "/root/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1546, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/root/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_nbextensions_configurator'
+[I 09:02:12.941 NotebookApp] JupyterLab extension loaded from /root/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 09:02:12.942 NotebookApp] JupyterLab application directory is /root/anaconda3/share/jupyter/lab
+[I 09:02:12.978 NotebookApp] Serving notebooks from local directory: /server/scripts/ipython
+[I 09:02:12.978 NotebookApp] The Jupyter Notebook is running at:
+[I 09:02:12.979 NotebookApp] http://(VM_192_126_centos or 127.0.0.1):8888/
+[I 09:02:12.979 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 09:02:12.998 NotebookApp] No web browser found: could not locate runnable browser.
+[I 09:02:14.367 NotebookApp] 302 GET / (218.94.50.77) 0.74ms
+[W 09:02:14.383 NotebookApp] Clearing invalid/expired login cookie username-imahjong-cn-8888
+[W 09:02:14.384 NotebookApp] Clearing invalid/expired login cookie username-imahjong-cn-8888
+[I 09:02:14.384 NotebookApp] 302 GET /tree? (218.94.50.77) 1.34ms
+[I 09:02:20.879 NotebookApp] 302 POST /login?next=%2Ftree%3F (218.94.50.77) 1.01ms
+[W 09:02:21.928 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20200228090208 (218.94.50.77) 37.09ms referer=http://imahjong.cn:8888/tree?
+[W 09:06:32.447 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20200228090208 (218.94.50.77) 1.45ms referer=http://imahjong.cn:8888/tree?
+[I 09:06:36.545 NotebookApp] Creating new notebook in 
+[W 09:06:42.819 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 1.75ms referer=http://imahjong.cn:8888/notebooks/Untitled.ipynb?kernel_name=aitrade
+[I 09:06:43.097 NotebookApp] Kernel started: 816d1e29-97d5-40e1-8e76-7744f96c13a6
+[W 09:06:43.124 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.46ms referer=http://imahjong.cn:8888/notebooks/Untitled.ipynb?kernel_name=aitrade
+[I 09:07:03.731 NotebookApp] Starting buffering for 816d1e29-97d5-40e1-8e76-7744f96c13a6:6bc40f0190474ebf8dba331e5fc04bcc
+[I 09:07:08.863 NotebookApp] Kernel shutdown: 816d1e29-97d5-40e1-8e76-7744f96c13a6
+[W 09:07:16.555 NotebookApp] delete /Untitled.ipynb
+[I 09:14:20.073 NotebookApp] 302 GET /tree (180.163.220.66) 0.86ms
+[W 09:32:58.544 NotebookApp] 404 GET http://imahjong.cn:8888/api/sessions?_%3D1582786752849 (182.254.52.17) 1.60ms referer=None
+[I 09:33:23.444 NotebookApp] 302 GET /notebooks/Untitled.ipynb (180.163.220.3) 0.67ms
+[I 09:33:23.727 NotebookApp] 302 GET /notebooks/Untitled.ipynb (180.163.220.3) 0.60ms
+[I 09:33:27.094 NotebookApp] 302 GET / (104.152.52.16) 0.63ms
+[W 09:33:28.666 NotebookApp] 405 OPTIONS / (104.152.52.16) 0.78ms referer=None
+[W 09:33:29.123 NotebookApp] 404 GET /nice%20ports%2C/Tri%6Eity.txt%2ebak (104.152.52.16) 1.31ms referer=None
+[I 09:33:29.699 NotebookApp] Malformed HTTP message from 104.152.52.16: Malformed HTTP request line
+[I 09:33:31.146 NotebookApp] Malformed HTTP message from 104.152.52.16: Malformed HTTP version in HTTP Request-Line: 'RTSP/1.0'

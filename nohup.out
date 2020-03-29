@@ -1,0 +1,232 @@
+[W 09:02:12.454 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 09:02:12.654 NotebookApp] Error loading server extension jupyter_nbextensions_configurator
+    Traceback (most recent call last):
+      File "/root/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1546, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/root/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_nbextensions_configurator'
+[I 09:02:12.941 NotebookApp] JupyterLab extension loaded from /root/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 09:02:12.942 NotebookApp] JupyterLab application directory is /root/anaconda3/share/jupyter/lab
+[I 09:02:12.978 NotebookApp] Serving notebooks from local directory: /server/scripts/ipython
+[I 09:02:12.978 NotebookApp] The Jupyter Notebook is running at:
+[I 09:02:12.979 NotebookApp] http://(VM_192_126_centos or 127.0.0.1):8888/
+[I 09:02:12.979 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 09:02:12.998 NotebookApp] No web browser found: could not locate runnable browser.
+[I 09:02:14.367 NotebookApp] 302 GET / (218.94.50.77) 0.74ms
+[W 09:02:14.383 NotebookApp] Clearing invalid/expired login cookie username-imahjong-cn-8888
+[W 09:02:14.384 NotebookApp] Clearing invalid/expired login cookie username-imahjong-cn-8888
+[I 09:02:14.384 NotebookApp] 302 GET /tree? (218.94.50.77) 1.34ms
+[I 09:02:20.879 NotebookApp] 302 POST /login?next=%2Ftree%3F (218.94.50.77) 1.01ms
+[W 09:02:21.928 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20200228090208 (218.94.50.77) 37.09ms referer=http://imahjong.cn:8888/tree?
+[W 09:06:32.447 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20200228090208 (218.94.50.77) 1.45ms referer=http://imahjong.cn:8888/tree?
+[I 09:06:36.545 NotebookApp] Creating new notebook in 
+[W 09:06:42.819 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 1.75ms referer=http://imahjong.cn:8888/notebooks/Untitled.ipynb?kernel_name=aitrade
+[I 09:06:43.097 NotebookApp] Kernel started: 816d1e29-97d5-40e1-8e76-7744f96c13a6
+[W 09:06:43.124 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.46ms referer=http://imahjong.cn:8888/notebooks/Untitled.ipynb?kernel_name=aitrade
+[I 09:07:03.731 NotebookApp] Starting buffering for 816d1e29-97d5-40e1-8e76-7744f96c13a6:6bc40f0190474ebf8dba331e5fc04bcc
+[I 09:07:08.863 NotebookApp] Kernel shutdown: 816d1e29-97d5-40e1-8e76-7744f96c13a6
+[W 09:07:16.555 NotebookApp] delete /Untitled.ipynb
+[I 09:14:20.073 NotebookApp] 302 GET /tree (180.163.220.66) 0.86ms
+[W 09:32:58.544 NotebookApp] 404 GET http://imahjong.cn:8888/api/sessions?_%3D1582786752849 (182.254.52.17) 1.60ms referer=None
+[I 09:33:23.444 NotebookApp] 302 GET /notebooks/Untitled.ipynb (180.163.220.3) 0.67ms
+[I 09:33:23.727 NotebookApp] 302 GET /notebooks/Untitled.ipynb (180.163.220.3) 0.60ms
+[I 09:33:27.094 NotebookApp] 302 GET / (104.152.52.16) 0.63ms
+[W 09:33:28.666 NotebookApp] 405 OPTIONS / (104.152.52.16) 0.78ms referer=None
+[W 09:33:29.123 NotebookApp] 404 GET /nice%20ports%2C/Tri%6Eity.txt%2ebak (104.152.52.16) 1.31ms referer=None
+[I 09:33:29.699 NotebookApp] Malformed HTTP message from 104.152.52.16: Malformed HTTP request line
+[I 09:33:31.146 NotebookApp] Malformed HTTP message from 104.152.52.16: Malformed HTTP version in HTTP Request-Line: 'RTSP/1.0'
+[W 09:55:51.537 NotebookApp] 404 GET http://imahjong.cn:8888/api/contents?type%3Ddirectory%26_%3D1582766360570 (61.241.50.63) 1.38ms referer=None
+[W 09:56:50.227 NotebookApp] 404 GET http://imahjong.cn:8888/api/terminals?_%3D1582786752841 (61.241.50.63) 1.39ms referer=None
+[W 10:02:59.231 NotebookApp] 404 GET http://imahjong.cn:8888/api/config/common?_%3D1582786752739 (61.241.50.63) 1.22ms referer=None
+[W 10:12:00.737 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 42.58ms referer=http://imahjong.cn:8888/notebooks/AITrade/L29Project4/pro4/Untitled.ipynb
+[I 10:12:01.249 NotebookApp] Kernel started: 54d1b000-357d-4d51-a7d6-d569e4542515
+[W 10:12:01.257 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.46ms referer=http://imahjong.cn:8888/notebooks/AITrade/L29Project4/pro4/Untitled.ipynb
+[W 10:12:02.277 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 1.64ms referer=http://imahjong.cn:8888/notebooks/AITrade/L29Project4/pro4/project_4_starter.ipynb
+[W 10:12:03.218 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.46ms referer=http://imahjong.cn:8888/notebooks/AITrade/L29Project4/pro4/project_4_starter.ipynb
+[I 10:12:13.929 NotebookApp] Adapting to protocol v5.1 for kernel 54d1b000-357d-4d51-a7d6-d569e4542515
+[I 10:12:19.335 NotebookApp] Kernel shutdown: 54d1b000-357d-4d51-a7d6-d569e4542515
+[W 10:12:19.336 NotebookApp] zmq message arrived on closed channel
+[W 10:12:19.337 NotebookApp] zmq message arrived on closed channel
+[W 10:12:19.338 NotebookApp] zmq message arrived on closed channel
+[W 10:29:21.694 NotebookApp] 404 GET http://imahjong.cn:8888/api/config/tree?_%3D1582766381574 (14.18.182.223) 1.36ms referer=None
+[W 10:44:31.477 NotebookApp] 404 GET http://imahjong.cn:8888/ (182.254.52.17) 147.25ms referer=None
+[W 12:22:30.549 NotebookApp] 404 GET http://imahjong.cn:8888/api/sessions?_%3D1582766381583 (58.247.212.239) 1177.28ms referer=None
+[W 12:32:22.637 NotebookApp] 404 GET http://imahjong.cn:8888/api/sessions?_%3D1582766381586 (59.36.132.240) 189.43ms referer=None
+[I 12:39:59.264 NotebookApp] 302 GET / (204.93.180.12) 140.68ms
+[W 12:39:59.760 NotebookApp] 405 OPTIONS / (204.93.180.12) 46.96ms referer=None
+[W 12:40:00.259 NotebookApp] 404 GET /nice%20ports%2C/Tri%6Eity.txt%2ebak (204.93.180.12) 57.44ms referer=None
+[I 12:40:00.824 NotebookApp] Malformed HTTP message from 204.93.180.12: Malformed HTTP request line
+[I 12:40:04.288 NotebookApp] Malformed HTTP message from 204.93.180.12: Malformed HTTP version in HTTP Request-Line: 'RTSP/1.0'
+[W 12:58:24.314 NotebookApp] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 30.37ms referer=None
+[W 13:16:24.619 NotebookApp] 404 GET http://imahjong.cn:8888/api/contents/AITrade?type%3Ddirectory%26_%3D1582766381585 (59.36.132.240) 1.32ms referer=None
+[W 13:23:56.499 NotebookApp] 404 GET http://imahjong.cn:8888/api/terminals?_%3D1582766381587 (182.254.52.17) 498.30ms referer=None
+[W 14:09:22.028 NotebookApp] 404 GET http://imahjong.cn:8888/tree/python_ml_case_studies/fonts (182.254.52.17) 1927.05ms referer=None
+[I 14:24:10.330 NotebookApp] 302 GET / (204.93.180.12) 45.24ms
+[W 14:24:10.804 NotebookApp] 405 OPTIONS / (204.93.180.12) 16.59ms referer=None
+[W 14:24:15.209 NotebookApp] 404 GET /nice%20ports%2C/Tri%6Eity.txt%2ebak (204.93.180.12) 91.16ms referer=None
+[I 14:24:16.553 NotebookApp] Malformed HTTP message from 204.93.180.12: Malformed HTTP request line
+[I 14:24:17.212 NotebookApp] Malformed HTTP message from 204.93.180.12: Malformed HTTP version in HTTP Request-Line: 'RTSP/1.0'
+[W 14:31:00.631 NotebookApp] 404 GET http://110.249.212.46/testget?q=23333&port=8888 (110.249.212.46) 271.83ms referer=None
+[I 14:37:46.670 NotebookApp] 302 GET / (218.94.50.77) 21.82ms
+[W 14:37:52.287 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20200228090208 (218.94.50.77) 80.45ms referer=http://imahjong.cn:8888/tree?
+[W 14:39:59.886 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 2.32ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data.ipynb
+[W 14:40:00.086 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.43ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data.ipynb
+[I 14:40:02.595 NotebookApp] Kernel started: d697734e-5208-48fe-bc8c-f18b7ed7a9e3
+[I 14:40:13.150 NotebookApp] Kernel shutdown: d697734e-5208-48fe-bc8c-f18b7ed7a9e3
+[I 14:40:13.217 NotebookApp] Adapting to protocol v5.1 for kernel d697734e-5208-48fe-bc8c-f18b7ed7a9e3
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 14:40:13.326 NotebookApp] Kernel started: bf0a6e4c-0226-4057-b9d1-5c5e5c3d643e
+[E 14:40:13.381 NotebookApp] Error opening stream: HTTP 404: Not Found (Kernel does not exist: d697734e-5208-48fe-bc8c-f18b7ed7a9e3)
+[I 14:40:16.302 NotebookApp] KernelRestarter: restarting kernel (1/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 14:40:19.369 NotebookApp] KernelRestarter: restarting kernel (2/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 14:40:22.387 NotebookApp] KernelRestarter: restarting kernel (3/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 14:40:25.405 NotebookApp] KernelRestarter: restarting kernel (4/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[W 14:40:28.421 NotebookApp] KernelRestarter: restart failed
+[W 14:40:28.422 NotebookApp] Kernel bf0a6e4c-0226-4057-b9d1-5c5e5c3d643e died, removing from map.
+[W 14:41:13.517 NotebookApp] Timeout waiting for kernel_info reply from bf0a6e4c-0226-4057-b9d1-5c5e5c3d643e
+[E 14:41:13.518 NotebookApp] Error opening stream: HTTP 404: Not Found (Kernel does not exist: bf0a6e4c-0226-4057-b9d1-5c5e5c3d643e)
+[I 14:42:01.817 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[I 14:42:08.143 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[W 14:43:14.772 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 1.49ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data.ipynb
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 14:43:17.054 NotebookApp] Kernel started: d73435c3-23c4-4a92-a4bc-4e10a149f445
+[W 14:43:17.526 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.45ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data.ipynb
+[I 14:43:20.009 NotebookApp] KernelRestarter: restarting kernel (1/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 14:43:23.026 NotebookApp] KernelRestarter: restarting kernel (2/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 14:43:26.036 NotebookApp] KernelRestarter: restarting kernel (3/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 14:43:29.051 NotebookApp] KernelRestarter: restarting kernel (4/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[W 14:43:32.066 NotebookApp] KernelRestarter: restart failed
+[W 14:43:32.066 NotebookApp] Kernel d73435c3-23c4-4a92-a4bc-4e10a149f445 died, removing from map.
+[W 14:43:36.961 NotebookApp] 410 DELETE /api/sessions/75e52eac-97e5-425d-bfce-cc250df47dc7 (218.94.50.77): Kernel deleted before session
+[W 14:43:36.980 NotebookApp] Kernel deleted before session
+[W 14:43:36.981 NotebookApp] 410 DELETE /api/sessions/75e52eac-97e5-425d-bfce-cc250df47dc7 (218.94.50.77) 20.35ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data.ipynb
+[I 14:43:37.099 NotebookApp] Kernel started: edca3d7e-c99b-4a0e-93d2-c59fab292320
+[I 14:43:57.722 NotebookApp] Kernel started: aeb6db07-0a8d-438f-97e0-885c97b473de
+[W 14:43:58.861 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 1.50ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data_solution.ipynb
+[W 14:43:59.383 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.18ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data_solution.ipynb
+[W 14:44:00.413 NotebookApp] 404 HEAD http://123.125.114.144/ (124.235.138.210) 1.21ms referer=None
+[I 14:44:15.948 NotebookApp] Adapting to protocol v5.1 for kernel aeb6db07-0a8d-438f-97e0-885c97b473de
+[W 14:44:17.459 NotebookApp] Timeout waiting for kernel_info reply from d73435c3-23c4-4a92-a4bc-4e10a149f445
+[E 14:44:17.460 NotebookApp] Error opening stream: HTTP 404: Not Found (Kernel does not exist: d73435c3-23c4-4a92-a4bc-4e10a149f445)
+[I 14:44:18.391 NotebookApp] Starting buffering for aeb6db07-0a8d-438f-97e0-885c97b473de:75dba91a81e742d6915a507dbc146c3b
+[W 14:45:08.560 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 1.55ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data.ipynb
+[I 14:45:10.863 NotebookApp] Adapting to protocol v5.1 for kernel edca3d7e-c99b-4a0e-93d2-c59fab292320
+[W 14:45:11.276 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.48ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data.ipynb
+[W 14:45:12.892 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 1.45ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data_solution.ipynb
+[I 14:45:13.402 NotebookApp] Adapting to protocol v5.1 for kernel aeb6db07-0a8d-438f-97e0-885c97b473de
+[W 14:45:13.565 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.45ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data_solution.ipynb
+[W 14:46:15.409 NotebookApp] 404 GET http://imahjong.cn:8888/api/config/tree?_%3D1582775209272 (101.89.19.140) 1.49ms referer=None
+[W 14:47:05.481 NotebookApp] 404 GET http://imahjong.cn:8888/api/config/common?_%3D1582775215522 (101.89.19.140) 1.75ms referer=None
+[I 14:47:10.614 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[I 14:47:13.242 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data_solution.ipynb
+[I 14:48:45.300 NotebookApp] Starting buffering for aeb6db07-0a8d-438f-97e0-885c97b473de:ad95c73b2098472982f4ca100e5611a9
+[I 14:49:10.420 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[W 14:49:11.910 NotebookApp] 404 GET http://imahjong.cn:8888/api/contents/python_ml_case_studies?type%3Ddirectory%26_%3D1582775218418 (101.89.19.140) 1.19ms referer=None
+[I 14:57:11.289 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[E 15:13:41.005 NotebookApp] Kernel info request failed, assuming current {}
+[W 15:14:52.664 NotebookApp] 404 GET http://imahjong.cn:8888/api/contents/python_ml_case_studies?type%3Ddirectory%26_%3D1582771924489 (14.18.182.223) 1.43ms referer=None
+[I 15:21:10.458 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[I 15:23:10.450 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[I 15:25:10.431 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[I 15:27:10.416 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[I 15:29:10.411 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[I 15:31:10.418 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[I 15:33:10.425 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[I 15:35:10.429 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[W 15:35:11.573 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20200226160332 (218.94.50.77) 1.49ms referer=http://imahjong.cn:8888/tree/AITrade/L04StockPrice
+[W 15:38:58.486 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 1.22ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data_solution.ipynb
+[I 15:38:58.520 NotebookApp] Adapting to protocol v5.1 for kernel aeb6db07-0a8d-438f-97e0-885c97b473de
+[W 15:38:59.369 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.16ms referer=http://imahjong.cn:8888/notebooks/AITrade/L04StockPrice/stock_data_solution.ipynb
+[I 15:39:10.404 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[I 15:41:10.420 NotebookApp] Saving file at /AITrade/L04StockPrice/stock_data.ipynb
+[I 15:41:33.354 NotebookApp] Starting buffering for edca3d7e-c99b-4a0e-93d2-c59fab292320:5cbb0ec88c2d459f96a44b7d6ebb0670
+[I 15:41:35.023 NotebookApp] Starting buffering for aeb6db07-0a8d-438f-97e0-885c97b473de:c651fbb90258467f88c34427ac8b5a3f
+[I 15:45:32.604 NotebookApp] Kernel shutdown: edca3d7e-c99b-4a0e-93d2-c59fab292320
+[I 15:45:32.912 NotebookApp] Kernel shutdown: aeb6db07-0a8d-438f-97e0-885c97b473de
+[W 15:45:35.648 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20200228090208 (218.94.50.77) 1.11ms referer=http://imahjong.cn:8888/tree/AITrade
+[W 15:45:43.999 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 1.24ms referer=http://imahjong.cn:8888/notebooks/AITrade/L05MarketMechanics/resample_data.ipynb
+[I 15:45:45.247 NotebookApp] Kernel started: 3ace2018-b679-42e8-bec6-0c9099add246
+[W 15:45:45.898 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.75ms referer=http://imahjong.cn:8888/notebooks/AITrade/L05MarketMechanics/resample_data.ipynb
+[I 15:45:46.048 NotebookApp] Adapting to protocol v5.1 for kernel 3ace2018-b679-42e8-bec6-0c9099add246
+[I 15:45:55.002 NotebookApp] Starting buffering for 3ace2018-b679-42e8-bec6-0c9099add246:d8537b20ee614011808f7dfb428a94d9
+[I 15:45:55.207 NotebookApp] Kernel shutdown: 3ace2018-b679-42e8-bec6-0c9099add246
+[I 15:45:55.264 NotebookApp] Kernel started: 1f608e2a-503e-41f9-a71e-9ab9b455a046
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 15:45:58.264 NotebookApp] KernelRestarter: restarting kernel (1/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 15:46:01.283 NotebookApp] KernelRestarter: restarting kernel (2/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 15:46:04.301 NotebookApp] KernelRestarter: restarting kernel (3/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 15:46:07.318 NotebookApp] KernelRestarter: restarting kernel (4/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[W 15:46:10.335 NotebookApp] KernelRestarter: restart failed
+[W 15:46:10.336 NotebookApp] Kernel 1f608e2a-503e-41f9-a71e-9ab9b455a046 died, removing from map.
+[W 15:46:55.314 NotebookApp] Timeout waiting for kernel_info reply from 1f608e2a-503e-41f9-a71e-9ab9b455a046
+[E 15:46:55.315 NotebookApp] Error opening stream: HTTP 404: Not Found (Kernel does not exist: 1f608e2a-503e-41f9-a71e-9ab9b455a046)
+[I 15:47:45.283 NotebookApp] Saving file at /AITrade/L05MarketMechanics/resample_data.ipynb
+[W 15:47:58.978 NotebookApp] 404 GET http://imahjong.cn:8888/api/config/common?_%3D1582775221791 (61.241.50.63) 1.45ms referer=None
+[W 15:57:34.771 NotebookApp] 404 GET http://imahjong.cn:8888/api/kernelspecs (182.254.52.17) 1.28ms referer=None
+[W 16:01:44.668 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 1.47ms referer=http://imahjong.cn:8888/notebooks/AITrade/L05MarketMechanics/resample_data.ipynb
+[E 16:01:46.292 NotebookApp] Uncaught exception POST /api/sessions (218.94.50.77)
+    HTTPServerRequest(protocol='http', host='imahjong.cn:8888', method='POST', uri='/api/sessions', version='HTTP/1.1', remote_ip='218.94.50.77')
+    Traceback (most recent call last):
+      File "/root/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1592, in _execute
+        result = yield result
+      File "/root/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 1133, in run
+        value = future.result()
+      File "/root/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 1147, in run
+        yielded = self.gen.send(value)
+      File "/root/anaconda3/lib/python3.7/site-packages/notebook/services/sessions/handlers.py", line 67, in post
+        model = yield gen.maybe_future(sm.get_session(path=path))
+      File "/root/anaconda3/lib/python3.7/site-packages/notebook/services/sessions/sessionmanager.py", line 170, in get_session
+        return self.row_to_model(row)
+      File "/root/anaconda3/lib/python3.7/site-packages/notebook/services/sessions/sessionmanager.py", line 209, in row_to_model
+        raise KeyError
+    KeyError
+[W 16:01:46.562 NotebookApp] Unhandled error
+[E 16:01:46.563 NotebookApp] {
+      "Host": "imahjong.cn:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "123",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Origin": "http://imahjong.cn:8888",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|cb455b15|a065a78b0afdc4868220ddecf5b2cf89|1582337559",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+      "Content-Type": "application/json",
+      "Referer": "http://imahjong.cn:8888/notebooks/AITrade/L05MarketMechanics/resample_data.ipynb",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+      "Cookie": "_xsrf=2|cb455b15|a065a78b0afdc4868220ddecf5b2cf89|1582337559; username-imahjong-cn-8888=\"2|1:0|10:1582851740|25:username-imahjong-cn-8888|44:ZjNmYzg4YzkxNzU4NGI4Nzg4ZDY4MjliOTI1ZWM1ZWY=|1b1f4387b2b5319da5ef38880085a004c88ab216c02271a9b5a371fe1683642a\""
+    }
+[E 16:01:46.563 NotebookApp] 500 POST /api/sessions (218.94.50.77) 281.15ms referer=http://imahjong.cn:8888/notebooks/AITrade/L05MarketMechanics/resample_data.ipynb
+[W 16:01:46.872 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.20ms referer=http://imahjong.cn:8888/notebooks/AITrade/L05MarketMechanics/resample_data.ipynb
+[W 16:03:41.630 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20200228090208 (218.94.50.77) 1.80ms referer=http://imahjong.cn:8888/notebooks/AITrade/L05MarketMechanics/resample_data.ipynb
+[I 16:03:43.191 NotebookApp] Kernel started: 2f8a0926-5085-4aeb-aacf-71752c382cab
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[W 16:03:43.622 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200228090208 (218.94.50.77) 1.67ms referer=http://imahjong.cn:8888/notebooks/AITrade/L05MarketMechanics/resample_data.ipynb
+[I 16:03:46.190 NotebookApp] KernelRestarter: restarting kernel (1/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 16:03:49.210 NotebookApp] KernelRestarter: restarting kernel (2/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 16:03:52.225 NotebookApp] KernelRestarter: restarting kernel (3/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[I 16:03:55.243 NotebookApp] KernelRestarter: restarting kernel (4/5), new random ports
+/root/anaconda3/envs/aitrade/bin/python3: No module named ipykernel_launcher
+[W 16:03:58.259 NotebookApp] KernelRestarter: restart failed
+[W 16:03:58.260 NotebookApp] Kernel 2f8a0926-5085-4aeb-aacf-71752c382cab died, removing from map.
+[W 16:04:43.553 NotebookApp] Timeout waiting for kernel_info reply from 2f8a0926-5085-4aeb-aacf-71752c382cab
+[E 16:04:43.555 NotebookApp] Error opening stream: HTTP 404: Not Found (Kernel does not exist: 2f8a0926-5085-4aeb-aacf-71752c382cab)
